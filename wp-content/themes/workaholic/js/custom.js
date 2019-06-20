@@ -1,0 +1,1 @@
+ jQuery('div.expander').expander();
