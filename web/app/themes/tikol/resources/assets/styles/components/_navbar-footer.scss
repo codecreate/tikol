@@ -1,0 +1,14 @@
+.nav-footer {
+  .menu-item {
+    a {
+      color: theme-color("tikol_black");
+      font-size: 0.875rem;
+      margin: 0 0.5rem;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
