@@ -1,10 +1,20 @@
 /** Import Bootstrap functions */
 @import "~bootstrap/scss/functions";
 
+$font-family-base:  Helvetica Neue,Helvetica,Arial,sans-serif;
+$font-size-base: 1.25rem;
+$body-bg: #fff;
+$body-color: #202020;
 $theme-colors: (
-  primary: #007ec9,
-  tikol_black: #999
+  "primary": #f4f4f4,
+  "secondary": #007ec9,
+  "tikol_black": #231f20,
+  "tikol_deep_black": #242222,
+  "tikol_alt_blue": #007cc7,
 );
+
+//$navbar-dark-toggler-icon-bg: url("data:image/svg+xml; charset=utf8, %3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{str-replace(str-replace(#{$navbar-dark-color}, "(", "%28"), ") ", "%29")}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+//$navbar-light-toggler-icon-bg: url("data:image/svg+xml; charset=utf8, %3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{str-replace(str-replace(#{$navbar-light-color}, "(", "%28"), ") ", "%29")}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;

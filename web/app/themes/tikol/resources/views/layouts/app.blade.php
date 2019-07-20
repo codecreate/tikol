@@ -4,7 +4,8 @@
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
     @include('partials.header')
-    <div class="wrap container" role="document">
+    @include('partials.heroImage')
+    <div class="wrap container mt-lg-n5 bg-primary pt-3 p-lg-5" role="document">
       <div class="content">
         <main class="main">
           @yield('content')

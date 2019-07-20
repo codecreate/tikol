@@ -1,0 +1,121 @@
+.navbar-custom {
+  padding: 0;
+
+  .navbar-brand {
+    img {
+      display: block;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .navbar-brand {
+      img {
+        max-width: 135px;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    flex-grow: 0;
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: theme-color("tikol_black");
+          font-size: 1.5rem;
+          margin: 0 1rem;
+          padding: 0.5rem 0;
+        }
+
+        @include media-breakpoint-down(lg) {
+          .nav-link {
+            font-size: 1rem;
+          }
+        }
+
+        &:first-child {
+          display: none;
+        }
+
+        &.active,
+        &:hover {
+          .nav-link {
+            border-bottom: 8px solid theme-color("secondary");
+          }
+        }
+      }
+    }
+
+    &.collapsing {
+      all: unset;
+    }
+
+    &.show {
+      background-color: theme-color("tikol_black");
+      height: 100vh;
+      left: 0;
+      margin: 0;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      z-index: 999;
+
+      .navbar-nav {
+        .fa-times {
+          color: white;
+          font-size: 3rem;
+          top: 1rem;
+          right: 1rem;
+        }
+
+        .nav-item {
+          .nav-link {
+            border-bottom: 1px solid white;
+            color: white;
+          }
+
+          &.active,
+          &:hover {
+            .nav-link {
+              border-bottom: 1px solid white;
+            }
+          }
+
+          &:first-child {
+            display: block;
+
+            .nav-link {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .custom-toggler {
+    &.navbar-toggler {
+      align-self: center;
+      border-color: transparent;
+      color: theme-color("tikol_black");
+      font-size: 0.625rem;
+
+      &:focus {
+        border-color: transparent;
+      }
+    }
+
+    .navbar-toggler-icon {
+      //background-image: url("../assets/images/hamburger.png");
+      height: 19px;
+      margin-left: 0.6875rem;
+      width: 26px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .navbar-custom {
+    margin-bottom: 0.6rem;
+  }
+}

@@ -1,0 +1,38 @@
+// typography
+
+.display-1 {
+  font-size: 1.875rem;
+  line-height: 1;
+  margin: 0 0 2rem 0;
+}
+
+h2 {
+  color: theme-color("secondary");
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+// take the corners off large buttons and put an arrow on it
+.btn-lg {
+  border-radius: 0;
+  font-size: 1.5rem;
+
+  span {
+    &:last-child {
+      padding-left: 1rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .display-1 {
+    font-size: 4.25rem;
+    line-height: 1;
+  }
+}
+
+// responsive background images
+[data-responsive-background-image] img {
+  display: none;
+}
+

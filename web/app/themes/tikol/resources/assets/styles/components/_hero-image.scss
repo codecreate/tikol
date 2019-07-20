@@ -1,0 +1,37 @@
+.hero-image {
+  background-color: theme-color("secondary");
+  padding: 4.3125rem 0 3rem;
+}
+
+.btn {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+
+  span {
+    line-height: 1;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .hero-image {
+    align-items: center;
+    background-image: inherit;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    height: 41rem;
+  }
+
+  .btn {
+    display: inline-block;
+  }
+
+  .page-template-landing {
+    .hero-image {
+      height: 24.75rem;
+    }
+  }
+}

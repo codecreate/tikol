@@ -13,10 +13,15 @@
 
 /** Import theme styles */
 @import "common/global";
+@import "components/aside";
+@import "components/link-block";
 @import "components/buttons";
 @import "components/comments";
+@import "components/hero-image";
 @import "components/forms";
 @import "components/wp-classes";
+@import "components/navbar-custom";
+@import "components/navbar-footer";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";

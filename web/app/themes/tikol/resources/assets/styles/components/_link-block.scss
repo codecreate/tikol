@@ -1,0 +1,28 @@
+.link-block {
+  .link-block-image {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .link-block-image-link {
+    .link-block-image-text {
+      background-color: theme-color("tikol_black");
+      color: white;
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      .link-block-image-text {
+        background-color: theme-color("secondary");
+        text-decoration: none;
+
+        .link-block-image-text-arrow {
+          color: white !important;
+        }
+      }
+    }
+  }
+}

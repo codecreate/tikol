@@ -1,32 +1,3 @@
 .banner {
-  padding: 1rem;
-
-  .container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-
-    nav {
-      &.nav-primary {
-        padding: 1.6rem 1rem;
-        z-index: 999;
-
-        li {
-          @extend .nav-item;
-
-          padding: 0.5rem 1rem;
-
-          a {
-            @extend .nav-link;
-          }
-        }
-      }
-    }
-
-    h1 {
-      color: theme-color("dark");
-      font-size: 5rem;
-      margin: 3rem 0 0;
-    }
-  }
+  padding: 1rem 0 0;
 }

@@ -1,0 +1,28 @@
+.nav-footer {
+  ul {
+    display: inline-block;
+    white-space: nowrap;
+
+    .menu-item {
+      display: inline;
+
+      a {
+        color: theme-color("tikol_black");
+        font-size: 0.875rem;
+        margin: 0 0.5rem;
+        text-decoration: underline;
+        vertical-align: top;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      &:first-child {
+        a {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

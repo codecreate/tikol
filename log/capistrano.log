@@ -1,0 +1,60 @@
+# Logfile created on 2019-07-13 11:18:03 +1000 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:18:03 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [993415cb] Running /usr/bin/env mkdir -p /tmp as codecrea@tikol.code-create.net
+  INFO [d57b8100] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:18:55 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [79bccc7a] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [10f67723] Running /usr/bin/env mkdir -p /tmp as codecrea@tikol.code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:19:27 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [020ec4bd] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [f90f1c36] Running /usr/bin/env mkdir -p /tmp as codecrea@tikol.code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:20:19 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a306b842] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [2c5e8c73] Running /usr/bin/env mkdir -p /tmp as codecrea@tikol.code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:21:06 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [95ca4283] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [e82807e8] Running /usr/bin/env mkdir -p /tmp as codecrea@tikol.code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:21:42 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3e991941] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [28dbd8ba] Running /usr/bin/env mkdir -p /tmp as codecrea@tikol.code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:22:51 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [32767fe5] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [4d7d2580] Running /usr/bin/env mkdir -p /tmp as codecrea@tikol.code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:23:24 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2054868c] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [bc487000] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:23:58 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f4565a93] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [db0ccbda] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:24:25 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a2deba70] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [92108fe0] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:27:55 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [629d95ef] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO [51f07c92] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-07-13 11:29:30 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a3489e31] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
