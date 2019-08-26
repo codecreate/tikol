@@ -1,0 +1,33 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+.wp-block-button {
+  align-items: center;
+  display: flex;
+
+  .wp-block-button__link {
+    background-color: theme-color("tikol_black");
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    text-align: left;
+    width: 75%;
+
+    &::after {
+      font-family: "Font Awesome 5 Free", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      color: theme-color("secondary");
+      content: "\f105";
+      position: absolute;
+      right: 1rem;
+    }
+
+    &:hover {
+      background-color: theme-color("tikol_alt_blue");
+      text-decoration: none;
+
+      &::after {
+        color: white;
+      }
+    }
+  }
+}

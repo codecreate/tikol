@@ -1,0 +1,56 @@
+.event-list {
+  &.event-list--short {
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    .tribe-events-widget-link {
+      a {
+        color: theme-color("tikol_black");
+        font-weight: 700;
+        text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .type-tribe_events {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      .tribe-mini-calendar-event {
+        border-bottom: none;
+
+        .list-date {
+          display: none;
+          //color: theme-color("secondary");
+          //font-size: 1.25rem;
+          //font-weight: 700;
+        }
+
+        .list-info {
+          .tribe-events-title {
+            color: theme-color("secondary");
+            font-size: 1.25rem;
+            line-height: 1.175em;
+
+            a {
+              color: inherit;
+              text-decoration: underline;
+
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+
+          .tribe-events-duration {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

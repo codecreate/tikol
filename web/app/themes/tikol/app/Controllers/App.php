@@ -34,13 +34,13 @@ class App extends Controller
     // Pass on all fields from Advanced Custom Fields to the view
     protected $acf = true;
 
-    public static function getHeroImage(){
+    public function getHeroImage(){
 
         $heroObj = (object)[
         'image' => get_field('hi_image') ? get_field('hi_image') : null,
         'title' => get_field('hi_title') ? get_field('hi_title') : null,
         'button1' => get_field('hi_button_1') ? get_field('hi_button_1') : null,
-        'button2' => get_field('hi_button_1') ? get_field('hi_button_1') : null,
+        'button2' => get_field('hi_button_2') ? get_field('hi_button_2') : null,
         ];
 
         return $heroObj;
@@ -83,7 +83,7 @@ class App extends Controller
                     if ($bool == true && count($menu_array) > 0) {
 
                         $menu_list .= '<li class="nav-item dropdown">' . "\n";
-                        $menu_list .= '<a class="nav-link" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">' . $menu_item->title . ' <span class="caret"></span></a>' . "\n";
+                        $menu_list .= '<a class="nav-link" href="#" class="nav-link dropdown-toggle '.implode(' ',$menu_item->classes).'" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">' . $menu_item->title . ' <span class="caret"></span></a>' . "\n";
 
                         $menu_list .= '<ul class="dropdown-menu">' . "\n";
                         $menu_list .= implode("\n", $menu_array);
@@ -93,7 +93,7 @@ class App extends Controller
 
                         $activeClass = get_post_meta( $menu_item->ID, '_menu_item_object_id', true ) == get_the_id() ? ' active' : '';
                         $menu_list .= '<li class="nav-item'.$activeClass.'">' . "\n";
-                        $menu_list .= '<a class="nav-link" href="' . $menu_item->url . '">' . $menu_item->title .'</a>' . "\n";
+                        $menu_list .= '<a class="nav-link '.implode(' ',$menu_item->classes).'" href="' . $menu_item->url . '">' . $menu_item->title .'</a>' . "\n";
                     }
 
                 }

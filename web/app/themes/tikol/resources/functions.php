@@ -104,4 +104,10 @@ function register_footer_menu()
     register_nav_menu('footer_navigation', __('Footer Navigation', 'tikol-footer-navigation'));
 }
 
-add_theme_support( 'custom-logo' );
+add_theme_support('custom-logo');
+
+// white list wistia for oEmbed
+wp_oembed_add_provider(
+    '/https?:\/\/(.+)?(wistia.com|wi.st)\/(medias|embed)\/.*/',
+    'http://fast.wistia.com/oembed',
+    true);

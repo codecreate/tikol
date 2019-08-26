@@ -21,6 +21,7 @@
     .navbar-nav {
       .nav-item {
         .nav-link {
+          border-bottom: 8px solid transparent;
           color: theme-color("tikol_black");
           font-size: 1.5rem;
           margin: 0 1rem;
@@ -106,7 +107,7 @@
     }
 
     .navbar-toggler-icon {
-      //background-image: url("../assets/images/hamburger.png");
+      background-image: url("/app/themes/tikol/dist/images/hamburger.png");
       height: 19px;
       margin-left: 0.6875rem;
       width: 26px;

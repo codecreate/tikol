@@ -12,6 +12,12 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  color: theme-color("tikol-black");
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
 // take the corners off large buttons and put an arrow on it
 .btn-lg {
   border-radius: 0;
