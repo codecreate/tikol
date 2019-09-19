@@ -10,12 +10,21 @@ h2 {
   color: theme-color("secondary");
   font-weight: 700;
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 h3 {
   color: theme-color("tikol-black");
   font-weight: 700;
   font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  a {
+    color: theme-color("secondary");
+    text-decoration: underline;
+  }
 }
 
 // take the corners off large buttons and put an arrow on it
@@ -37,8 +46,11 @@ h3 {
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 // responsive background images
 [data-responsive-background-image] img {
   display: none;
 }
-

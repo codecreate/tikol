@@ -15,10 +15,10 @@
       <div class="col-12 pr-lg-5 pl-lg-5">
 
         @if($get_hero_image->button1['url'] !== null)
-          <a href="{!! $get_hero_image->button1['url'] !!}" class="btn btn-primary btn-lg mr-lg-4"><span class="text font-weight-bold text-left">{!! $get_hero_image->button1['title'] !!}</span><span class="fa fa-angle-right text-secondary"></span></a>
+          <a href="{!! $get_hero_image->button1['url'] !!}" class="btn btn-primary btn-inv btn-lg mr-lg-4"><span class="text font-weight-bold text-left">{!! $get_hero_image->button1['title'] !!}</span><span class="fa fa-angle-right text-secondary"></span></a>
         @endif
           @if($get_hero_image->button2['url'] !== null)
-          <a href="{!! $get_hero_image->button2['url'] !!}" class="btn btn-primary btn-lg"><span class="text font-weight-bold text-left">{!! $get_hero_image->button2['title'] !!}</span><span class="fa fa-angle-right text-secondary"></span></a>
+          <a href="{!! $get_hero_image->button2['url'] !!}" class="btn btn-primary btn-inv btn-lg"><span class="text font-weight-bold text-left">{!! $get_hero_image->button2['title'] !!}</span><span class="fa fa-angle-right text-secondary"></span></a>
         @endif
       </div>
     </div>

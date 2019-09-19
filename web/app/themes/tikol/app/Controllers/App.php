@@ -35,10 +35,9 @@ class App extends Controller
     protected $acf = true;
 
     public function getHeroImage(){
-
         $heroObj = (object)[
         'image' => get_field('hi_image') ? get_field('hi_image') : null,
-        'title' => get_field('hi_title') ? get_field('hi_title') : null,
+        'title' => get_field('hi_title') ? get_field('hi_title') : App::title(),
         'button1' => get_field('hi_button_1') ? get_field('hi_button_1') : null,
         'button2' => get_field('hi_button_2') ? get_field('hi_button_2') : null,
         ];
@@ -74,16 +73,23 @@ class App extends Controller
 
                     $menu_array = array();
                     $bool = false;
+                    $activeChild = false;
                     foreach ($menu_items as $submenu) {
                         if ($submenu->menu_item_parent == $parent) {
                             $bool = true;
+                            if (get_post_meta( $submenu->ID, '_menu_item_object_id', true ) == get_the_id()){
+                                $activeChild = true;
+                            };
                             $menu_array[] = '<li><a href="' . $submenu->url . '">' . $submenu->title . '</a></li>' . "\n";
                         }
                     }
+
                     if ($bool == true && count($menu_array) > 0) {
 
-                        $menu_list .= '<li class="nav-item dropdown">' . "\n";
-                        $menu_list .= '<a class="nav-link" href="#" class="nav-link dropdown-toggle '.implode(' ',$menu_item->classes).'" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">' . $menu_item->title . ' <span class="caret"></span></a>' . "\n";
+                        $activeClass = ($activeChild == true) ? ' active' : '';
+
+                        $menu_list .= '<li class="nav-item dropdown'.$activeClass.'">' . "\n";
+                        $menu_list .= '<a class="nav-link" href="' . $menu_item->url . '">' . $menu_item->title . '</a>' . "\n";
 
                         $menu_list .= '<ul class="dropdown-menu">' . "\n";
                         $menu_list .= implode("\n", $menu_array);
@@ -114,6 +120,14 @@ class App extends Controller
         }
 
         echo $menu_list;
+    }
+
+    public static function get_featured_image($postID, $size='medium'){
+        if ( has_post_thumbnail($postID) ){
+            return get_the_post_thumbnail($postID, $size);
+        }else{
+            return '';
+        }
     }
 
 }

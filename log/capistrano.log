@@ -90,3 +90,276 @@
   INFO START 2019-08-26 20:49:10 +1000 cap production deploy
   INFO ---------------------------------------------------------------------------
   INFO [4368683c] Running /usr/bin/env mkdir -p /tmp as deploy@example.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:12:17 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1797d7f3] Running /usr/bin/env mkdir -p /tmp as andy@code-create.net
+  INFO [26caa998] Running /usr/bin/env mkdir -p /tmp as codecrea@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:13:17 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [42289d8e] Running /usr/bin/env mkdir -p /tmp as andy@code-create.net
+  INFO [cda2437c] Running /usr/bin/env mkdir -p /tmp as codecrea@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:14:24 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0b9bb01d] Running /usr/bin/env mkdir -p /tmp as andy@code-create.net
+  INFO [f8e104dd] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:18:16 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [53d6106c] Running /usr/bin/env mkdir -p /tmp as andy@code-create.net
+  INFO [4203a06d] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:18:47 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3417e06e] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [1f085972] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:23:31 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [a7c266bd] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [59846792] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:27:43 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [401e2ef8] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [0a9db692] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:29:09 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [aee74492] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [8d1d2a93] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:33:05 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [43297960] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [0b83be1f] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:34:38 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [73371a85] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [6f277c8d] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:35:26 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [74eb23c6] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [a810b275] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:37:30 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [82ffec9b] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [cdec78a0] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:46:16 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [afc28e4e] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [94285f3d] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:49:04 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [90909752] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [341bf29a] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:53:57 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fa290c2d] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [70c12275] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:54:20 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [de5bc73f] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [57cac479] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:54:38 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2af6d24f] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [308e0f26] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:54:53 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cdd54c0d] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [5eb1d5cb] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:57:25 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [312dd922] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [65db1f3a] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:58:59 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b0d792a2] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [2ffce4db] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 21:59:52 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d0c2a2b5] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [dd0d1e87] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 22:01:41 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [b6e24d15] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [7e61ab73] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 22:04:58 +1000 cap staging
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 22:05:30 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ff11c5f6] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [7115367e] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 22:09:02 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d3f1bb05] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO [5f5dd1f1] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 22:19:23 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [28b5248c] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [66828e3b] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 22:25:04 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [5ff4d5fd] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [75fe163c] Running /usr/bin/env mkdir -p /tmp as codecrea@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-26 22:25:34 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c6142f70] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [43cb44b6] Running /usr/bin/env mkdir -p /tmp as codecrea@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 19:36:31 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [758bff5f] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [9bc79ad2] Running /usr/bin/env mkdir -p /tmp as codecrea@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 19:38:06 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d6da3cdb] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [874e2424] Running /usr/bin/env mkdir -p /tmp as codecrea@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 19:39:10 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6a0ebcd1] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [e3b2820b] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 19:41:29 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [07334fb2] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO [724907b4] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 19:44:54 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1bc031be] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [6adf51ac] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 19:51:23 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [dc8fc97a] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [843bdf1f] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:07:40 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2aea26d3] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [9da0f52c] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:09:07 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f30f045c] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [96456d80] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:10:23 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7a0dcf4a] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [eb8b0eb2] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:45:42 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5766ea2b] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [47f1f914] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:47:05 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fd265002] Running /usr/bin/env mkdir -p /tmp as codecreate-machineuser@code-create.net
+  INFO [034b3186] Running /usr/bin/env mkdir -p /tmp as codecrea-machineuser@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:48:28 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b53d63f7] Running /usr/bin/env mkdir -p /tmp as codecreate-machineuser@code-create.net
+  INFO [0e955cd7] Running /usr/bin/env mkdir -p /tmp as codecrea-machineuser@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:49:59 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9409a961] Running /usr/bin/env mkdir -p /tmp as codecreate-machineuser@code-create.net
+  INFO [5f5de3c9] Running /usr/bin/env mkdir -p /tmp as codecreate-machineuser@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:50:32 +1000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c051f048] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO [97ae3831] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:52:02 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [723d4549] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [2f87fa9f] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:53:11 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [2de722d5] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [61b5caa5] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:54:26 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [10fd103e] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [64d39d88] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:55:41 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [80eb7f69] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [9134548a] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:57:30 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [39c68c0b] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [b18388af] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:58:15 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [40f4fb1c] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [74adc3da] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:58:45 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [b0661a86] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [7eee6b62] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 20:59:09 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [8b779238] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [e0496e71] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 21:00:48 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [875b2cd3] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [2edde712] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 21:01:31 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [7cb2643d] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net
+  INFO [b2d8b504] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 21:02:13 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ee0e1781] Running /usr/bin/env mkdir -p /tmp as codecreate-machineuser@code-create.net
+  INFO [cde1d588] Running /usr/bin/env mkdir -p /tmp as codecreate-machineuser@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 21:03:08 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [5baf4158] Running /usr/bin/env mkdir -p /tmp as codecre@code-create.net
+  INFO [08c33e71] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-08-27 22:59:58 +1000 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [01592d21] Running /usr/bin/env mkdir -p /tmp as codecre@code-create.net
+  INFO [b67af754] Running /usr/bin/env mkdir -p /tmp as codecrea@code-create.net@http

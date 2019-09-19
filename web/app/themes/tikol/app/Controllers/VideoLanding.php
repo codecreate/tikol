@@ -7,28 +7,37 @@ use Sober\Controller\Controller;
 class VideoLanding extends Controller
 {
     // Pass on fields from Advanced Custom Fields to the view
-    protected $acf = ['vlp_hero_video', 'vlp_sample_videos', 'vlp_event_promotion'];
+    protected $acf = ['tuning_into_kids', 'hero_area', 'vlp_hero_video', 'vlp_hero_text','vlp_sample_videos', 'vlp_event_promotion'];
 
-    public function getVlpHero(){
-        return get_field('vlp_hero_video');
-    }
-
-    public function getVlpSamples(){
-        return array_map(function($sample_video) {
+    public function getTuningIntoKidsArea()
+    {
+        $area = get_field('tuning_into_kids');
+        $videoSamples = array_map(function($sample_video) {
             return [
                 'video' => $sample_video['vlp_sample_video'] ?? null,
             ];
-        }, get_field('vlp_sample_videos') ?? []);
+        }, $area['vlp_sample_videos'] ?? []);
+
+        if ($area) {
+            return [
+                'subtitle' => $area['vlp_subtitle'] ?? null,
+                'video' => $area['hero_area']['vlp_hero_video'] ?? null,
+                'text' => $area['hero_area']['vlp_hero_text'] ?? null,
+                'samples' =>  $videoSamples,
+            ];
+        };
     }
 
-    public function getVlpEventPromo(){
-        $vlp_event_promotion = get_field('vlp_event_promotion');
-        if ($vlp_event_promotion) {
+    public function getParentingProgramsArea()
+    {
+        $area = get_field('parenting_programs');
+
+        if ($area) {
             return [
-                'heading' => $vlp_event_promotion['vlp_heading'] ?? null,
-                'content' => $vlp_event_promotion['vlp_content'] ?? null,
-                'cta' => $vlp_event_promotion['vlp_call_to_action'] ?? null,
+                'heading' => $area['vlp_heading'] ?? null,
+                'content' => $area['vlp_content'] ?? null,
+                'cta' => $area['vlp_call_to_action'] ?? null,
             ];
-        }
+        };
     }
 }

@@ -1,6 +1,6 @@
 <article @php post_class() @endphp>
-  <header>
-    <h1 class="entry-title">{!! get_the_title() !!}</h1>
+  {!!  App::get_featured_image(get_the_id(), 'large') !!}
+  <header class="mt-3">
     @include('partials/entry-meta')
   </header>
   <div class="entry-content">

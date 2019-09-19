@@ -31,3 +31,11 @@
     }
   }
 }
+
+.btn-inv {
+  &:hover {
+    background-color: theme-color("tikol_black");
+    color: $body-bg;
+    text-decoration: none;
+  }
+}

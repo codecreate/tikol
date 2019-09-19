@@ -26,7 +26,7 @@ set :log_level, :info
 
 # Hardcodes branch to always be master
 # This could be overridden in a stage config file
-set :branch, :master
+set :branch, :development
 
 # Folbert addition. Disable forward agent for, what appears to be, increased security
 set :ssh_options, {

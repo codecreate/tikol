@@ -1,0 +1,18 @@
+article {
+  h2.entry-title {
+    font-size: 1.6rem;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: theme-color("secondary");
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p.author {
+    display: inline-block;
+  }
+}

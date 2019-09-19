@@ -111,3 +111,29 @@ wp_oembed_add_provider(
     '/https?:\/\/(.+)?(wistia.com|wi.st)\/(medias|embed)\/.*/',
     'http://fast.wistia.com/oembed',
     true);
+
+add_filter( 'wpmem_login_redirect', 'my_login_redirect', 10, 2 );
+function my_login_redirect( $redirect_to, $user_id ) {
+    return home_url( '/events/community-events/list' );
+}
+
+add_filter( 'wpmem_logout_redirect', 'my_logout_redirect' );
+function my_logout_redirect( $redirect_to ) {
+    return home_url( '/parents/attend-a-parenting-program/' );
+}
+
+add_action( 'wpmem_register_redirect', 'my_reg_redirect' );
+function my_reg_redirect( $fields ) {
+    wp_redirect( '/events/community-events/list' );
+    exit();
+}
+
+// disable the dashboard for subscribers
+add_action('admin_init', 'disable_dashboard');
+
+function disable_dashboard() {
+    if (current_user_can('subscriber') && is_admin()) {
+        wp_redirect('/events/community-events/list');
+        exit;
+    }
+}
