@@ -27,9 +27,17 @@
 @import "components/article";
 @import "components/block-media";
 @import "components/carousel";
+@import "components/feature-block";
+@import "components/testimonial-block";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+// import slick
+// Import Slick
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+// tikol overrides for slick
+@import "components/slick-tikol.scss";

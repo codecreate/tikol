@@ -24,7 +24,7 @@
         <h3 class="h1">{!!$get_subscribe_benefits['price']!!}</h3>
         @if ($get_subscribe_benefits['cta']['url'])
           <div class="wp-block-button is-style-squared mb-lg-4 mt-lg-4">
-          <a class="wp-block-button__link w-100" href="{!!$get_subscribe_benefits['cta']['url']!!}">
+          <a class="wp-block-button__link w-100{{$get_subscribe_benefits['cta']['url']=='#'?' inplayer-paywall-login':''}}" href="{!!$get_subscribe_benefits['cta']['url']!!}">
             {!!$get_subscribe_benefits['cta']['title']!!}
           </a>
         </div>
@@ -39,110 +39,58 @@
 
   <hr />
 
+  <section class="mb-5 mt-6">
 
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner row">
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    @if($get_examples['carouselItem'])
+      <div class="slider autoplay mt-5 mb-5">
+      @foreach($get_examples['carouselItem'] as $carousel_item)
+        @include('partials.carousel-item', $carousel_item)
+      @endforeach
+      </div>
+    @endif
+    
+    @if($get_examples['featureItem'])
+      <div class="container text-center mt-5 mb-5">
+        <h2>Features</h2>
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-6">
+            <ul class="fa-ul">
+              @foreach($get_examples['featureItem'] as $feature_item)
+                @include('partials.feature-block', $feature_item)
+              @endforeach
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-
-
-
+    @endif
   
+  </section>
+
+  <hr />
+
+  @if($get_testimonials['testimonialItem'])
+    <section class="mb-5 mt-6">
+      <div class="container">
+        <div class="row">
+            @foreach($get_testimonials['testimonialItem'] as $testimonial_item)
+              <div class="col-md-3">
+              @include('partials.testimonial-block', $testimonial_item)
+              </div>
+            @endforeach
+          </div>
+      </div>
+    </section>
+  @endif
+
+  <section class="mt-6">
+    <div class="container text-center">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-4">
+          @include('partials.cta-button', $get_cta)
+        </div>
+      </div>
+    </div>
+  </section>
+
   @endwhile
 @endsection

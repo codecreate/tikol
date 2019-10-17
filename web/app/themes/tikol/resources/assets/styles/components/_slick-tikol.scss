@@ -1,0 +1,10 @@
+.slick-next,
+.slick-prev {
+  &::before {
+    color: theme-color("tikol_black");
+  }
+}
+
+.slick-slide {
+  margin: 0.5rem;
+}
