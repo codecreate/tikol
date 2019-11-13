@@ -11,3 +11,13 @@ footer {
     }
   }
 }
+
+.footer-logos {
+  img {
+    margin: 1rem;
+
+    @include media-breakpoint-down(lg) {
+      margin: 0.5rem;
+    }
+  }
+}

@@ -19,27 +19,14 @@
       paywall.showPaywall({ registerFirst: true });
 
       paywall.on('logout', function(e, data) {
-          //e.type: 'logout'
-          //data.account
           console.log("-- LOGOUT --");
-          console.log(e, data);
           if (e.type === 'logout'){
               window.location.replace("/parents");
           }
       });
 
       paywall.on('authenticated', function(e, data) {
-        // console.log('InplayerPaywall authenticated', data);
-        console.log('InplayerPaywall authenticated', e.action);
-        //e.type: 'authenticated'
-        //e.action: 'login', 'register' or 'token'
-        //data.account
-        //data.access_token
-        //data.expires
-        //data.refresh_token
-        //data.timestamp
         console.log("-- AUTHENTICATED --");
-        console.log(e, data);
         if (e.action === 'login' || e.action === 'register'){
             window.location.replace("/parents/videos");
         }

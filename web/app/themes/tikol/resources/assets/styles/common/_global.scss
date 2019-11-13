@@ -50,6 +50,18 @@ img {
   max-width: 100%;
 }
 
+hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.hidden_link {
+  display: none;
+
+  &-show {
+    display: block;
+  }
+}
+
 // responsive background images
 [data-responsive-background-image] img {
   display: none;
