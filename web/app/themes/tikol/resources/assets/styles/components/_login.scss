@@ -1,0 +1,23 @@
+#tribe-events {
+  #loginform {
+    width: 50%;
+  }
+
+  .login-remember {
+    label {
+      align-content: center;
+      display: flex;
+      float: left !important;
+
+      input {
+        float: left !important;
+        margin: 8px 8px 0 0;
+        width: auto !important;
+      }
+    }
+  }
+
+  .login-submit {
+    width: 25%;
+  }
+}

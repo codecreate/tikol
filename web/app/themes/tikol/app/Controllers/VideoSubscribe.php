@@ -7,7 +7,7 @@ use Sober\Controller\Controller;
 class VideoSubscribe extends Controller
 {
     // Pass on fields from Advanced Custom Fields to the view
-    protected $acf = ['subs_benefits', 'subs_examples', 'subs_testimonials', 'subs_cta'];
+    protected $acf = ['subs_benefits', 'subs_examples', 'subs_cta'];
 
     public function getSubscribeBenefits()
     {

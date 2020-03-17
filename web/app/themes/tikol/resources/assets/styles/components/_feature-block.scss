@@ -2,11 +2,16 @@
   font-size: 1.1rem;
 
   li {
-    margin: 0 0 2rem 0;
+    margin: 2rem 0 4rem 0;
 
     .fa-li {
       color: theme-color("tikol_alt_blue");
-      font-size: 4rem;
+      font-size: 3rem;
+    }
+
+    p {
+      font-weight: 600;
+      margin-bottom: 0;
     }
   }
 }

@@ -3,10 +3,11 @@
   @include('partials.head')
   <body @php body_class() @endphp>
     <script type="text/javascript">
-      var paywall = new InplayerPaywall('5de5d300-61cd-4268-88f3-ab8366b55f29',
+
+      var paywall = new InplayerPaywall('1fc0b7d6-5eae-401c-a327-39734ca7a227',
       @php
         if(is_page('videos') == true) {
-          echo '[{id: 50281},{id: 50282},{id: 50283},{id: 50284},{id: 50285},{id: 50286},{id: 50287},{id: 50288},{id: 50289},{id: 50290}],';
+          echo '[{id: 79538},{id: 79539},{id: 79541},{id: 79545},{id: 79546},{id: 79547},{id: 79548},{id: 79549},{id: 79551},{id: 79552}],';
         }
       @endphp
       {
@@ -19,27 +20,14 @@
       paywall.showPaywall({ registerFirst: true });
 
       paywall.on('logout', function(e, data) {
-          //e.type: 'logout'
-          //data.account
           console.log("-- LOGOUT --");
-          console.log(e, data);
           if (e.type === 'logout'){
               window.location.replace("/parents");
           }
       });
 
       paywall.on('authenticated', function(e, data) {
-        // console.log('InplayerPaywall authenticated', data);
-        console.log('InplayerPaywall authenticated', e.action);
-        //e.type: 'authenticated'
-        //e.action: 'login', 'register' or 'token'
-        //data.account
-        //data.access_token
-        //data.expires
-        //data.refresh_token
-        //data.timestamp
         console.log("-- AUTHENTICATED --");
-        console.log(e, data);
         if (e.action === 'login' || e.action === 'register'){
             window.location.replace("/parents/videos");
         }

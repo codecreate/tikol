@@ -66,22 +66,6 @@
   
   </section>
 
-  <hr />
-
-  @if($get_testimonials['testimonialItem'])
-    <section class="mb-5 mt-6">
-      <div class="container">
-        <div class="row">
-            @foreach($get_testimonials['testimonialItem'] as $testimonial_item)
-              <div class="col-md-3">
-              @include('partials.testimonial-block', $testimonial_item)
-              </div>
-            @endforeach
-          </div>
-      </div>
-    </section>
-  @endif
-
   <section class="mt-6">
     <div class="container text-center">
       <div class="row justify-content-md-center">

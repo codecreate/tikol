@@ -1,0 +1,127 @@
+.tribe-bar-views {
+  padding: 15px 0;
+}
+
+.tribe-bar-views-inner {
+  padding: 8px 0 !important;
+}
+
+#tribe-bar-views-label {
+  display: none !important;
+}
+
+#tribe-bar-views-toggle:hover,
+#tribe-bar-views-toggle:focus {
+  background: transparent;
+  outline: none !important;
+}
+
+@include media-breakpoint-up(lg) {
+  #tribe-bar-form {
+    align-items: flex-end;
+    display: flex;
+
+    .tribe-bar-filters-inner {
+      margin: 0;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: row;
+    }
+  }
+}
+
+.tribe-events-page-title {
+  font-size: 3.125rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 0.5rem 0 !important;
+  text-align: initial !important;
+}
+
+.tribe-bar-submit {
+  margin-left: 25%;
+}
+
+label {
+  width: auto;
+  float: none !important;
+}
+
+.div_text {
+  float: none !important;
+  width: 50% !important;
+}
+
+input {
+  border: 1px solid #ccc !important;
+  border-radius: 6px !important;
+  color: #a9a9a9;
+  float: none !important;
+  font-size: 1rem !important;
+  height: auto !important;
+  padding: 10px !important;
+  width: 100% !important;
+
+  &:focus {
+    background-color: #fff !important;
+  }
+}
+
+.button_div,
+.div_textarea {
+  float: none !important;
+  text-align: left !important;
+}
+
+#wpmem_reg label.textarea {
+  height: auto !important;
+  padding: 10px 0 !important;
+  float: none !important;
+  width: auto !important;
+}
+
+#wpmem_register_form {
+  input[type=submit] {
+    background-image: none !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    background-color: #005e96 !important;
+    border-color: #005689 !important;
+    width: auto !important;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      background-color: #0066a3;
+      border-color: #005e96;
+    }
+  }
+}
+
+input[type=search] {
+  background-position: 95% center !important;
+}
+
+#tribe-events {
+  #loginform {
+    width: 50%;
+  }
+
+  .login-remember {
+    label {
+      align-content: center;
+      display: flex;
+      float: left !important;
+
+      input {
+        float: left !important;
+        margin: 8px 8px 0 0;
+        width: auto !important;
+      }
+    }
+  }
+
+  .login-submit {
+    width: 25%;
+  }
+}

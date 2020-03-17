@@ -129,4 +129,11 @@ class App extends Controller
             return '';
         }
     }
+
+    public static function get_custom_author(){
+        if (get_field('custom_post_author')) {
+            return get_field('custom_post_author');
+        }
+    }
+
 }
