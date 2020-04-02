@@ -18,51 +18,51 @@
   </div>
   <div class="row">
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79538"></div>
+      <div id="inplayer-71319"></div>
       <a class="hidden_link" href="#">pdf link here</a>
     </div>
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79539"></div>
-      <a class="hidden_link" href="#">pdf link here</a>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79541"></div>
-      <a class="hidden_link" href="#">pdf link here</a>
-    </div>
-    <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79545"></div>
+      <div id="inplayer-71320"></div>
       <a class="hidden_link" href="#">pdf link here</a>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79546"></div>
+      <div id="inplayer-71321"></div>
+      <a class="hidden_link" href="#">pdf link here</a>
+    </div>
+    <div class="col-lg-6 mt-2 mb-2">
+      <div id="inplayer-71322"></div>
+      <a class="hidden_link" href="#">pdf link here</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 mt-2 mb-2">
+      <div id="inplayer-71323"></div>
        <a class="hidden_link" href="#">pdf link here</a>
     </div>
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79547"></div>
+      <div id="inplayer-71324"></div>
       <a class="hidden_link" href="#">pdf link here</a>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79548"></div>
+      <div id="inplayer-71325"></div>
       <a class="hidden_link" href="#">pdf link here</a>
     </div>
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79549"></div>
+      <div id="inplayer-71326"></div>
       <a class="hidden_link" href="#">pdf link here</a>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79551"></div>
+      <div id="inplayer-71327"></div>
       <a class="hidden_link" href="#">pdf link here</a>
     </div>
     <div class="col-lg-6 mt-2 mb-2">
-      <div id="inplayer-79552"></div>
+      <div id="inplayer-71328"></div>
       <a class="hidden_link" href="#">pdf link here</a>
     </div>
   </div>

@@ -16,20 +16,6 @@
   outline: none !important;
 }
 
-@include media-breakpoint-up(lg) {
-  #tribe-bar-form {
-    align-items: flex-end;
-    display: flex;
-
-    .tribe-bar-filters-inner {
-      margin: 0;
-      display: flex;
-      align-items: flex-end;
-      flex-direction: row;
-    }
-  }
-}
-
 .tribe-events-page-title {
   font-size: 3.125rem !important;
   font-weight: 500 !important;
