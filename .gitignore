@@ -22,3 +22,6 @@ web/.htaccess
 wp-cli.local.yml
 
 /bucket
+
+# Search Replace
+/Search-Replace-DB/*
